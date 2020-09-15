@@ -1,0 +1,134 @@
+body{
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    background-attachment: fixed;
+    background-image: url(/img/waves.webp);
+	background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    position: relative;
+}
+
+nav{
+    text-transform: uppercase;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+#content{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    padding: 20px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+#me{
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+#about h5{
+    text-align: center;
+}
+
+#projects{
+    margin-bottom: 20px;
+}
+
+#contact{
+    text-align: center;
+}
+
+#contact p{
+    margin-bottom: 10px;
+}
+
+.active{
+    text-decoration: underline;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: transparent;
+}
+
+.heading{
+    text-align: center;
+}
+
+.btn{
+    border-radius: 50%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgba(0,0,0,.9);
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:#fff;
+}
+
+.involvement{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.involvement img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.involvement p{
+    text-align: left;
+}
+
+.jumbotron{
+    padding: 10px;
+}
+
+.lightBgColor{
+    background-color: #e9ecef;
+}
+
+.card{
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 75%;
+    padding-bottom: 0;
+    border: none;
+}
+
+.card-text{
+    text-align: left;
+}
+
+.projInfo p{
+    height: 50px;
+    overflow: hidden;
+}
+
+.projInfo.showContent p{
+    height: auto;
+}
+
+.card .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.read{
+    cursor: pointer;
+}
+
+.read:hover{
+    text-decoration: underline;
+}
+
+.card img{
+    align-self: center;
+    border-radius: calc(.25rem - 1px);
+}
